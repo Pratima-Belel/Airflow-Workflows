@@ -1,0 +1,865 @@
+[2025-06-17T09:34:30.910+0530] {processor.py:161} INFO - Started process (PID=4219) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:34:30.918+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:34:30.962+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:34:30.950+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:34:31.076+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:34:31.060+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:34:31.081+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:34:31.230+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.429 seconds
+[2025-06-17T09:35:02.208+0530] {processor.py:161} INFO - Started process (PID=4220) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:02.211+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:35:02.215+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:35:02.214+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:02.252+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:35:02.243+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:35:02.254+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:02.318+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.120 seconds
+[2025-06-17T09:35:32.763+0530] {processor.py:161} INFO - Started process (PID=4221) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:32.765+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:35:32.769+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:35:32.768+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:32.817+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:35:32.803+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:35:32.821+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:35:32.914+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.160 seconds
+[2025-06-17T09:36:03.632+0530] {processor.py:161} INFO - Started process (PID=4222) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:03.634+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:36:03.637+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:36:03.636+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:03.672+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:36:03.666+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:36:03.675+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:03.733+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.110 seconds
+[2025-06-17T09:36:34.818+0530] {processor.py:161} INFO - Started process (PID=4223) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:34.820+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:36:34.824+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:36:34.823+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:34.901+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:36:34.883+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:36:34.909+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:36:35.029+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.227 seconds
+[2025-06-17T09:37:05.582+0530] {processor.py:161} INFO - Started process (PID=4224) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:05.584+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:37:05.589+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:37:05.588+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:05.663+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:37:05.649+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:37:05.667+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:05.861+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.295 seconds
+[2025-06-17T09:37:36.099+0530] {processor.py:161} INFO - Started process (PID=4225) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:36.104+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:37:36.109+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:37:36.108+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:36.164+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:37:36.154+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:37:36.168+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:37:36.281+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.196 seconds
+[2025-06-17T09:38:06.640+0530] {processor.py:161} INFO - Started process (PID=4226) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:06.643+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:38:06.646+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:38:06.645+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:06.691+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:38:06.680+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:38:06.694+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:06.779+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.152 seconds
+[2025-06-17T09:38:38.119+0530] {processor.py:161} INFO - Started process (PID=4227) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:38.122+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:38:38.127+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:38:38.126+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:38.184+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:38:38.173+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:38:38.190+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:38:38.284+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.179 seconds
+[2025-06-17T09:39:08.714+0530] {processor.py:161} INFO - Started process (PID=4228) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:08.717+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:39:08.721+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:39:08.720+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:08.798+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:39:08.783+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:39:08.806+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:08.945+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.262 seconds
+[2025-06-17T09:39:40.168+0530] {processor.py:161} INFO - Started process (PID=4229) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:40.176+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:39:40.190+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:39:40.187+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:40.249+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:39:40.239+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:39:40.255+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:39:40.383+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.261 seconds
+[2025-06-17T09:40:10.659+0530] {processor.py:161} INFO - Started process (PID=4230) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:10.661+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:40:10.665+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:40:10.664+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:10.715+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:40:10.702+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:40:10.721+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:10.906+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.260 seconds
+[2025-06-17T09:40:44.096+0530] {processor.py:161} INFO - Started process (PID=4231) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:44.098+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:40:44.101+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:40:44.100+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:44.153+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:40:44.142+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:40:44.157+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:40:44.271+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 2.866 seconds
+[2025-06-17T09:41:14.627+0530] {processor.py:161} INFO - Started process (PID=4232) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:14.630+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:41:14.635+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:41:14.634+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:14.688+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:41:14.678+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:41:14.693+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:14.775+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.165 seconds
+[2025-06-17T09:41:45.233+0530] {processor.py:161} INFO - Started process (PID=4233) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:45.236+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:41:45.241+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:41:45.239+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:45.302+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:41:45.290+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:41:45.306+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:41:45.407+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.189 seconds
+[2025-06-17T09:42:15.942+0530] {processor.py:161} INFO - Started process (PID=4234) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:15.945+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:42:15.957+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:42:15.953+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:16.004+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:42:15.997+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:42:16.007+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:16.159+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.227 seconds
+[2025-06-17T09:42:46.799+0530] {processor.py:161} INFO - Started process (PID=4235) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:46.800+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:42:46.803+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:42:46.802+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:46.847+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:42:46.836+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:42:46.852+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:42:46.918+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.133 seconds
+[2025-06-17T09:43:17.496+0530] {processor.py:161} INFO - Started process (PID=4237) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:17.498+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:43:17.501+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:43:17.500+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:17.541+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:43:17.531+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:43:17.548+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:17.669+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.183 seconds
+[2025-06-17T09:43:47.744+0530] {processor.py:161} INFO - Started process (PID=4238) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:47.745+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:43:47.748+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:43:47.747+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:47.781+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:43:47.775+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:43:47.784+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:43:47.839+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.103 seconds
+[2025-06-17T09:44:18.224+0530] {processor.py:161} INFO - Started process (PID=4239) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:18.225+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:44:18.228+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:44:18.227+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:18.264+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:44:18.256+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:44:18.270+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:18.355+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.140 seconds
+[2025-06-17T09:44:48.576+0530] {processor.py:161} INFO - Started process (PID=4240) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:48.577+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:44:48.580+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:44:48.579+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:48.614+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:44:48.608+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:44:48.617+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:44:48.677+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.111 seconds
+[2025-06-17T09:45:19.292+0530] {processor.py:161} INFO - Started process (PID=4241) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:19.294+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:45:19.296+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:45:19.296+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:19.325+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:45:19.320+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:45:19.328+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:19.387+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.103 seconds
+[2025-06-17T09:45:49.793+0530] {processor.py:161} INFO - Started process (PID=4242) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:49.795+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:45:49.799+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:45:49.797+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:49.833+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:45:49.825+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:45:49.836+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:45:49.910+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.125 seconds
+[2025-06-17T09:46:20.234+0530] {processor.py:161} INFO - Started process (PID=4243) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:20.236+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:46:20.240+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:46:20.239+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:20.339+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:46:20.329+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:46:20.342+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:20.501+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.277 seconds
+[2025-06-17T09:46:51.275+0530] {processor.py:161} INFO - Started process (PID=4244) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:51.289+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:46:51.296+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:46:51.294+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:51.358+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:46:51.349+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:46:51.365+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:46:51.552+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.291 seconds
+[2025-06-17T09:47:02.778+0530] {processor.py:161} INFO - Started process (PID=4245) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:02.780+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:47:02.784+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:02.783+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:02.846+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:02.837+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:47:02.849+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:02.910+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.140 seconds
+[2025-06-17T09:47:08.138+0530] {processor.py:161} INFO - Started process (PID=4246) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:08.139+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:47:08.142+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:08.142+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:08.196+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:08.187+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:47:08.198+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:08.248+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.116 seconds
+[2025-06-17T09:47:38.494+0530] {processor.py:161} INFO - Started process (PID=4247) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:38.497+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:47:38.499+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:38.499+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:38.531+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:38.525+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:47:38.534+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:38.588+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.103 seconds
+[2025-06-17T09:47:51.054+0530] {processor.py:161} INFO - Started process (PID=4248) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:51.056+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:47:51.059+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:51.058+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:51.115+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:47:51.107+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:47:51.120+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:47:51.177+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.130 seconds
+[2025-06-17T09:48:22.102+0530] {processor.py:161} INFO - Started process (PID=4249) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:22.104+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:48:22.107+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:48:22.106+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:22.138+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:48:22.132+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:48:22.141+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:22.197+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.103 seconds
+[2025-06-17T09:48:48.729+0530] {processor.py:161} INFO - Started process (PID=4250) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:48.731+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:48:48.735+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:48:48.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:48.796+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:48:48.787+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:48:48.800+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:48:48.867+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.156 seconds
+[2025-06-17T09:49:19.595+0530] {processor.py:161} INFO - Started process (PID=4251) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:19.597+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:49:19.600+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:49:19.600+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:19.631+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:49:19.625+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:49:19.634+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:19.699+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.114 seconds
+[2025-06-17T09:49:50.629+0530] {processor.py:161} INFO - Started process (PID=4256) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:50.631+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:49:50.635+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:49:50.635+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:50.687+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:49:50.677+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:49:50.691+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:49:50.768+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.148 seconds
+[2025-06-17T09:50:19.914+0530] {processor.py:161} INFO - Started process (PID=4259) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:19.921+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:50:19.923+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:50:19.923+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:19.982+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:50:19.972+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:50:19.986+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:20.084+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.177 seconds
+[2025-06-17T09:50:51.088+0530] {processor.py:161} INFO - Started process (PID=4260) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:51.090+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:50:51.092+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:50:51.092+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:51.128+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:50:51.121+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:50:51.131+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:50:51.195+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.122 seconds
+[2025-06-17T09:52:47.693+0530] {processor.py:161} INFO - Started process (PID=4337) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:52:47.696+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:52:47.705+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:52:47.703+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:52:47.746+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:52:47.739+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:52:47.749+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:52:47.863+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.202 seconds
+[2025-06-17T09:53:18.286+0530] {processor.py:161} INFO - Started process (PID=4348) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:18.289+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:53:18.292+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:53:18.291+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:18.327+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:53:18.320+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:53:18.331+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:18.392+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.112 seconds
+[2025-06-17T09:53:49.390+0530] {processor.py:161} INFO - Started process (PID=4349) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:49.392+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:53:49.396+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:53:49.395+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:49.438+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:53:49.431+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:53:49.442+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:53:49.506+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.123 seconds
+[2025-06-17T09:54:19.864+0530] {processor.py:161} INFO - Started process (PID=4353) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:19.866+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:54:19.869+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:54:19.869+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:19.906+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:54:19.899+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operatos.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operatos'
+[2025-06-17T09:54:19.911+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:19.985+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.133 seconds
+[2025-06-17T09:54:35.826+0530] {processor.py:161} INFO - Started process (PID=4354) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:35.828+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:54:35.831+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:54:35.830+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:35.890+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:54:35.881+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:54:35.893+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:54:35.952+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.138 seconds
+[2025-06-17T09:55:01.507+0530] {processor.py:161} INFO - Started process (PID=4358) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:01.509+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:55:01.513+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:55:01.513+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:01.574+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:55:01.566+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:55:01.577+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:01.648+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.149 seconds
+[2025-06-17T09:55:31.803+0530] {processor.py:161} INFO - Started process (PID=4361) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:31.804+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:55:31.808+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:55:31.807+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:31.844+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:55:31.838+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:55:31.848+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:55:31.934+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.141 seconds
+[2025-06-17T09:56:02.207+0530] {processor.py:161} INFO - Started process (PID=4389) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:02.209+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:56:02.212+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:56:02.211+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:02.244+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:56:02.238+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:56:02.247+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:02.311+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.111 seconds
+[2025-06-17T09:56:32.506+0530] {processor.py:161} INFO - Started process (PID=4394) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:32.508+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:56:32.511+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:56:32.510+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:32.543+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:56:32.536+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:56:32.546+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:56:32.610+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.110 seconds
+[2025-06-17T09:57:03.467+0530] {processor.py:161} INFO - Started process (PID=4395) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:03.470+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:57:03.474+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:03.473+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:03.515+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:03.504+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/hello_world.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2025-06-17T09:57:03.521+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:03.605+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.149 seconds
+[2025-06-17T09:57:13.817+0530] {processor.py:161} INFO - Started process (PID=4396) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:13.819+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:57:13.820+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:13.820+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:13.874+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:14.100+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.099+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_world
+[2025-06-17T09:57:14.157+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.156+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_world
+[2025-06-17T09:57:14.208+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.207+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_world
+[2025-06-17T09:57:14.209+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.209+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:57:14.245+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.244+0530] {dag.py:3118} INFO - Creating ORM DAG for hello_world
+[2025-06-17T09:57:14.248+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:14.247+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:57:14.429+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.619 seconds
+[2025-06-17T09:57:44.942+0530] {processor.py:161} INFO - Started process (PID=4401) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:44.944+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:57:44.946+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:44.946+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:44.977+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:57:45.016+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:45.015+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:57:45.037+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:57:45.036+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:57:45.131+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.195 seconds
+[2025-06-17T09:58:15.506+0530] {processor.py:161} INFO - Started process (PID=4405) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:15.507+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:58:15.511+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:15.510+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:15.546+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:15.605+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:15.605+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:58:15.634+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:15.633+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:58:15.755+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.258 seconds
+[2025-06-17T09:58:46.810+0530] {processor.py:161} INFO - Started process (PID=4410) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:46.812+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:58:46.816+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:46.815+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:46.941+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:58:47.140+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:47.140+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:58:47.187+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:58:47.187+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:58:47.293+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.492 seconds
+[2025-06-17T09:59:18.036+0530] {processor.py:161} INFO - Started process (PID=4415) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:18.038+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:59:18.040+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:18.040+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:18.073+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:18.114+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:18.114+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:59:18.135+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:18.134+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:59:18.231+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.202 seconds
+[2025-06-17T09:59:48.536+0530] {processor.py:161} INFO - Started process (PID=4416) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:48.538+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T09:59:48.540+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:48.539+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:48.569+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T09:59:48.605+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:48.605+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T09:59:48.624+0530] {logging_mixin.py:188} INFO - [2025-06-17T09:59:48.624+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T09:59:48.716+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.187 seconds
+[2025-06-17T10:00:19.932+0530] {processor.py:161} INFO - Started process (PID=4421) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:19.933+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:00:19.935+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:19.935+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:19.966+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:20.011+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:20.011+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:00:20.031+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:20.031+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:00:20.136+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.227 seconds
+[2025-06-17T10:00:51.007+0530] {processor.py:161} INFO - Started process (PID=4422) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:51.008+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:00:51.010+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:51.010+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:51.040+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:00:51.079+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:51.078+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:00:51.099+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:00:51.099+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:00:51.193+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.192 seconds
+[2025-06-17T10:01:18.024+0530] {processor.py:161} INFO - Started process (PID=4423) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:18.026+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:01:18.029+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:18.029+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:18.106+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:18.370+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:18.369+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:01:18.392+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:18.392+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:01:19.217+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 1.202 seconds
+[2025-06-17T10:01:50.410+0530] {processor.py:161} INFO - Started process (PID=4434) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:50.413+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:01:50.415+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:50.415+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:50.448+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:01:50.492+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:50.491+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:01:50.515+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:01:50.515+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:01:50.720+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.321 seconds
+[2025-06-17T10:02:21.348+0530] {processor.py:161} INFO - Started process (PID=4437) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:21.349+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:02:21.352+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:21.352+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:21.385+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:21.432+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:21.431+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:02:21.453+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:21.453+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:02:21.574+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.234 seconds
+[2025-06-17T10:02:52.763+0530] {processor.py:161} INFO - Started process (PID=4446) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:52.765+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:02:52.768+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:52.767+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:52.801+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:02:52.837+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:52.836+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:02:52.853+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:02:52.853+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:02:52.943+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.188 seconds
+[2025-06-17T10:03:23.559+0530] {processor.py:161} INFO - Started process (PID=4455) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:23.564+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:03:23.573+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:23.572+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:23.614+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:23.663+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:23.663+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:03:23.686+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:23.685+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:03:23.777+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.230 seconds
+[2025-06-17T10:03:54.124+0530] {processor.py:161} INFO - Started process (PID=4463) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:54.129+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:03:54.138+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:54.137+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:54.199+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:03:54.288+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:54.288+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:03:54.320+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:03:54.319+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:03:54.434+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.345 seconds
+[2025-06-17T10:04:24.605+0530] {processor.py:161} INFO - Started process (PID=4467) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:24.607+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:04:24.609+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:24.609+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:24.642+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:24.682+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:24.682+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:04:24.705+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:24.705+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:04:24.802+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.207 seconds
+[2025-06-17T10:04:55.178+0530] {processor.py:161} INFO - Started process (PID=4470) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:55.180+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:04:55.182+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:55.182+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:55.211+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:04:55.247+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:55.247+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:04:55.267+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:04:55.266+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:04:55.359+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.187 seconds
+[2025-06-17T10:05:25.529+0530] {processor.py:161} INFO - Started process (PID=4477) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:25.532+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:05:25.536+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:25.536+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:25.602+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:25.654+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:25.653+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:05:25.704+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:25.704+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:05:25.797+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.277 seconds
+[2025-06-17T10:05:56.114+0530] {processor.py:161} INFO - Started process (PID=4483) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:56.115+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:05:56.118+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:56.118+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:56.154+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:05:56.198+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:56.197+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:05:56.218+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:05:56.218+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:05:56.953+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.848 seconds
+[2025-06-17T10:06:27.335+0530] {processor.py:161} INFO - Started process (PID=4487) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:27.337+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:06:27.341+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:27.340+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:27.370+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:27.406+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:27.405+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:06:27.530+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:27.530+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:06:27.618+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.291 seconds
+[2025-06-17T10:06:57.869+0530] {processor.py:161} INFO - Started process (PID=4490) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:57.871+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:06:57.874+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:57.873+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:57.911+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:06:57.951+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:57.951+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:06:58.096+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:06:58.095+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:06:58.190+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.329 seconds
+[2025-06-17T10:07:28.606+0530] {processor.py:161} INFO - Started process (PID=4491) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:28.608+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:07:28.610+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:28.610+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:28.641+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:28.795+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:28.795+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:07:28.814+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:28.814+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:07:28.911+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.312 seconds
+[2025-06-17T10:07:45.167+0530] {processor.py:161} INFO - Started process (PID=4492) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:45.168+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:07:45.171+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:45.170+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:45.268+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:07:45.717+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:45.717+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:07:45.740+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:07:45.739+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:07:45.880+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.720 seconds
+[2025-06-17T10:08:16.810+0530] {processor.py:161} INFO - Started process (PID=4495) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:16.811+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:08:16.814+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:16.813+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:16.953+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:16.992+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:16.991+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:08:17.009+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:17.008+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:08:17.107+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.305 seconds
+[2025-06-17T10:08:37.712+0530] {processor.py:161} INFO - Started process (PID=4499) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:37.714+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:08:37.718+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:37.718+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:37.797+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:08:37.857+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:37.857+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:08:37.884+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:08:37.883+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:08:38.061+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.358 seconds
+[2025-06-17T10:09:08.642+0530] {processor.py:161} INFO - Started process (PID=4500) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:08.644+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:09:08.647+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:08.647+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:08.693+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:08.742+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:08.741+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:09:08.761+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:08.761+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:09:08.869+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.262 seconds
+[2025-06-17T10:09:39.596+0530] {processor.py:161} INFO - Started process (PID=4504) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:39.597+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:09:39.599+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:39.599+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:39.630+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:09:39.665+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:39.665+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:09:39.682+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:09:39.681+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:09:39.769+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.180 seconds
+[2025-06-17T10:10:01.918+0530] {processor.py:161} INFO - Started process (PID=4505) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:01.920+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:10:01.923+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:01.922+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:02.052+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:02.297+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:02.296+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:10:02.315+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:02.314+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:10:02.405+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.497 seconds
+[2025-06-17T10:10:33.137+0530] {processor.py:161} INFO - Started process (PID=4515) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:33.139+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:10:33.141+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:33.140+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:33.175+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:33.214+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:33.214+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:10:33.236+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:33.235+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:10:33.348+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.222 seconds
+[2025-06-17T10:10:36.846+0530] {processor.py:161} INFO - Started process (PID=4518) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:36.850+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:10:36.854+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:36.853+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:36.945+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:10:37.176+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:37.176+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:10:37.198+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:10:37.198+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:10:37.342+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.508 seconds
+[2025-06-17T10:11:06.115+0530] {processor.py:161} INFO - Started process (PID=4523) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:06.116+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:11:06.118+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:06.118+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:06.165+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:06.186+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:06.186+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:11:06.205+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:06.204+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:11:06.299+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.192 seconds
+[2025-06-17T10:11:36.631+0530] {processor.py:161} INFO - Started process (PID=4524) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:36.633+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:11:36.635+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:36.635+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:36.664+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:11:36.706+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:36.706+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:11:36.729+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:11:36.728+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:11:36.819+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.194 seconds
+[2025-06-17T10:12:07.670+0530] {processor.py:161} INFO - Started process (PID=4525) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:07.672+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:12:07.675+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:07.674+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:07.707+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:07.745+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:07.745+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:12:07.765+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:07.765+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:12:07.868+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.207 seconds
+[2025-06-17T10:12:34.214+0530] {processor.py:161} INFO - Started process (PID=4526) to work on /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:34.215+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py for tasks to queue
+[2025-06-17T10:12:34.221+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:34.221+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:34.282+0530] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py
+[2025-06-17T10:12:34.325+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:34.324+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-17T10:12:34.343+0530] {logging_mixin.py:188} INFO - [2025-06-17T10:12:34.343+0530] {dag.py:3954} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-06-17T10:12:34.448+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/hello_world.py took 0.243 seconds
