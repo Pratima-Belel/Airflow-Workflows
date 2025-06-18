@@ -1,0 +1,21 @@
+[2025-06-18T08:10:13.433+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-18T08:10:13.489+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sch_hello_world.sch_hello_world_task scheduled__2025-06-17T00:00:00+00:00 [queued]>
+[2025-06-18T08:10:13.510+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sch_hello_world.sch_hello_world_task scheduled__2025-06-17T00:00:00+00:00 [queued]>
+[2025-06-18T08:10:13.511+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-06-18T08:10:13.571+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): sch_hello_world_task> on 2025-06-17 00:00:00+00:00
+[2025-06-18T08:10:13.579+0530] {standard_task_runner.py:63} INFO - Started process 1982 to run task
+[2025-06-18T08:10:13.585+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'sch_hello_world', 'sch_hello_world_task', 'scheduled__2025-06-17T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/scheduled_hello_world.py', '--cfg-path', '/tmp/tmpo32f3nmd']
+[2025-06-18T08:10:13.590+0530] {standard_task_runner.py:91} INFO - Job 15: Subtask sch_hello_world_task
+[2025-06-18T08:10:13.741+0530] {task_command.py:426} INFO - Running <TaskInstance: sch_hello_world.sch_hello_world_task scheduled__2025-06-17T00:00:00+00:00 [running]> on host LAPTOP-IPDFG60J.
+[2025-06-18T08:10:13.921+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pratima' AIRFLOW_CTX_DAG_ID='sch_hello_world' AIRFLOW_CTX_TASK_ID='sch_hello_world_task' AIRFLOW_CTX_EXECUTION_DATE='2025-06-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-17T00:00:00+00:00'
+[2025-06-18T08:10:13.922+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-18T08:10:13.942+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-06-18T08:10:13.955+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo Hello, World. This is a scheduled task!']
+[2025-06-18T08:10:13.969+0530] {subprocess.py:86} INFO - Output:
+[2025-06-18T08:10:13.984+0530] {subprocess.py:93} INFO - Hello, World. This is a scheduled task!
+[2025-06-18T08:10:13.985+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-06-18T08:10:13.987+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-18T08:10:14.049+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=sch_hello_world, task_id=sch_hello_world_task, execution_date=20250617T000000, start_date=20250618T024013, end_date=20250618T024014
+[2025-06-18T08:10:14.126+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-18T08:10:14.163+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-18T08:10:14.166+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

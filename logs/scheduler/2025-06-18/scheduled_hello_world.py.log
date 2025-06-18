@@ -1,0 +1,109 @@
+[2025-06-18T08:08:07.744+0530] {processor.py:161} INFO - Started process (PID=1941) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:07.745+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:08:07.749+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:08:07.748+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:07.815+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:08:07.796+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py", line 4, in <module>
+    from airflow.operators.bash import BashOperators
+ImportError: cannot import name 'BashOperators' from 'airflow.operators.bash' (/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/operators/bash.py)
+[2025-06-18T08:08:07.818+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:07.889+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.152 seconds
+[2025-06-18T08:08:38.228+0530] {processor.py:161} INFO - Started process (PID=1952) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:38.230+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:08:38.233+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:08:38.232+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:38.266+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:08:38.259+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py", line 4, in <module>
+    from airflow.operators.bash import BashOperators
+ImportError: cannot import name 'BashOperators' from 'airflow.operators.bash' (/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/operators/bash.py)
+[2025-06-18T08:08:38.269+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:08:38.329+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.112 seconds
+[2025-06-18T08:09:02.764+0530] {processor.py:161} INFO - Started process (PID=1954) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:02.765+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:09:02.767+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:02.767+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:02.862+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:02.855+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py", line 19, in <module>
+    task = BashOperators(
+NameError: name 'BashOperators' is not defined
+[2025-06-18T08:09:02.864+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:02.998+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.241 seconds
+[2025-06-18T08:09:26.401+0530] {processor.py:161} INFO - Started process (PID=1962) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:26.403+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:09:26.406+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:26.405+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:26.468+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:26.460+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py", line 19, in <module>
+    task = BashOperators(
+NameError: name 'BashOperators' is not defined
+[2025-06-18T08:09:26.471+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:26.527+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.151 seconds
+[2025-06-18T08:09:30.285+0530] {processor.py:161} INFO - Started process (PID=1963) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:30.287+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:09:30.289+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:30.288+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:30.342+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:30.334+0530] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+Traceback (most recent call last):
+  File "/home/pratima/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py", line 19, in <module>
+    task = BashOperators(
+NameError: name 'BashOperators' is not defined
+[2025-06-18T08:09:30.345+0530] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:30.398+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.120 seconds
+[2025-06-18T08:09:52.142+0530] {processor.py:161} INFO - Started process (PID=1971) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:52.144+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:09:52.147+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.146+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:52.204+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:09:52.662+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.660+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:sch_hello_world
+[2025-06-18T08:09:52.713+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.712+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:sch_hello_world
+[2025-06-18T08:09:52.762+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.761+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:sch_hello_world
+[2025-06-18T08:09:52.764+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.763+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:09:52.796+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.796+0530] {dag.py:3118} INFO - Creating ORM DAG for sch_hello_world
+[2025-06-18T08:09:52.851+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:09:52.850+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-17 00:00:00+00:00, run_after=2025-06-18 00:00:00+00:00
+[2025-06-18T08:09:52.973+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.837 seconds
+[2025-06-18T08:10:24.293+0530] {processor.py:161} INFO - Started process (PID=1988) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:24.295+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:10:24.298+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:24.297+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:24.341+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:24.391+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:24.390+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:10:24.431+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:24.430+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:10:24.548+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.265 seconds
+[2025-06-18T08:10:55.035+0530] {processor.py:161} INFO - Started process (PID=1992) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:55.036+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:10:55.038+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:55.038+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:55.069+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:10:55.104+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:55.103+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:10:55.135+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:10:55.134+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:10:55.223+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.194 seconds
+[2025-06-18T08:11:25.948+0530] {processor.py:161} INFO - Started process (PID=1994) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:25.949+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:11:25.951+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:25.951+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:25.984+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:26.019+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:26.018+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:11:26.054+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:26.054+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:11:26.148+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.209 seconds
+[2025-06-18T08:11:56.980+0530] {processor.py:161} INFO - Started process (PID=1996) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:56.981+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:11:56.985+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:56.984+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:57.017+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:11:57.058+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:57.058+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:11:57.091+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:57.090+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:11:57.185+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.213 seconds
