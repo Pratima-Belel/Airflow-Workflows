@@ -107,3 +107,850 @@ NameError: name 'BashOperators' is not defined
 [2025-06-18T08:11:57.058+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:57.058+0530] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-18T08:11:57.091+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:11:57.090+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
 [2025-06-18T08:11:57.185+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.213 seconds
+[2025-06-18T08:12:27.679+0530] {processor.py:161} INFO - Started process (PID=1998) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:27.681+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:12:27.687+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:27.686+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:27.719+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:27.754+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:27.754+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:12:27.786+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:27.786+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:12:27.874+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.201 seconds
+[2025-06-18T08:12:58.062+0530] {processor.py:161} INFO - Started process (PID=2000) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:58.063+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:12:58.065+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:58.065+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:58.098+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:12:58.138+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:58.137+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:12:58.172+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:12:58.171+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:12:58.262+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:13:29.073+0530] {processor.py:161} INFO - Started process (PID=2002) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:13:29.075+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:13:29.078+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:13:29.077+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:13:29.116+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:13:29.154+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:13:29.153+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:13:29.188+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:13:29.187+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:13:29.279+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.214 seconds
+[2025-06-18T08:14:00.097+0530] {processor.py:161} INFO - Started process (PID=2004) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:00.098+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:14:00.101+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:00.100+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:00.131+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:00.169+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:00.168+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:14:00.212+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:00.212+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:14:00.294+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T08:14:31.036+0530] {processor.py:161} INFO - Started process (PID=2007) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:31.037+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:14:31.040+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:31.040+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:31.072+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:14:31.109+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:31.108+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:14:31.145+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:14:31.145+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:14:31.234+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T08:15:01.573+0530] {processor.py:161} INFO - Started process (PID=2009) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:01.575+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:15:01.577+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:01.577+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:01.610+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:01.645+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:01.645+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:15:01.683+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:01.682+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:15:01.777+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.211 seconds
+[2025-06-18T08:15:32.785+0530] {processor.py:161} INFO - Started process (PID=2011) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:32.787+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:15:32.792+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:32.791+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:32.833+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:15:32.877+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:32.876+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:15:32.917+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:15:32.916+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:15:33.021+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.246 seconds
+[2025-06-18T08:16:03.446+0530] {processor.py:161} INFO - Started process (PID=2013) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:03.448+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:16:03.450+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:03.449+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:03.483+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:03.518+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:03.518+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:16:03.554+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:03.554+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:16:03.647+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:16:33.867+0530] {processor.py:161} INFO - Started process (PID=2015) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:33.868+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:16:33.870+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:33.870+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:33.903+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:16:33.938+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:33.937+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:16:33.975+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:16:33.974+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:16:34.073+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.212 seconds
+[2025-06-18T08:17:04.540+0530] {processor.py:161} INFO - Started process (PID=2020) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:04.541+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:17:04.545+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:04.544+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:04.655+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:04.760+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:04.759+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:17:04.815+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:04.815+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:17:05.064+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.531 seconds
+[2025-06-18T08:17:35.661+0530] {processor.py:161} INFO - Started process (PID=2022) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:35.663+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:17:35.667+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:35.666+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:35.752+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:17:35.849+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:35.849+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:17:35.913+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:17:35.913+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:17:36.020+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.396 seconds
+[2025-06-18T08:18:06.437+0530] {processor.py:161} INFO - Started process (PID=2024) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:06.439+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:18:06.442+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:06.442+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:06.478+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:06.514+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:06.513+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:18:06.547+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:06.547+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:18:06.639+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:18:37.034+0530] {processor.py:161} INFO - Started process (PID=2026) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:37.036+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:18:37.038+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:37.038+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:37.073+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:18:37.107+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:37.107+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:18:37.134+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:18:37.134+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:18:37.208+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.180 seconds
+[2025-06-18T08:19:07.381+0530] {processor.py:161} INFO - Started process (PID=2028) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:07.383+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:19:07.385+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:07.384+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:07.418+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:07.457+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:07.457+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:19:07.501+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:07.501+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:19:07.607+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.233 seconds
+[2025-06-18T08:19:37.977+0530] {processor.py:161} INFO - Started process (PID=2030) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:37.979+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:19:37.981+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:37.980+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:38.012+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:19:38.047+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:38.047+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:19:38.077+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:19:38.077+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:19:38.165+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.195 seconds
+[2025-06-18T08:20:08.400+0530] {processor.py:161} INFO - Started process (PID=2032) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:08.401+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:20:08.404+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:08.403+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:08.438+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:08.474+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:08.473+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:20:08.505+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:08.504+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:20:08.631+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.238 seconds
+[2025-06-18T08:20:38.999+0530] {processor.py:161} INFO - Started process (PID=2034) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:39.000+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:20:39.004+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:39.003+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:39.043+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:20:39.091+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:39.090+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:20:39.136+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:20:39.135+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:20:39.288+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.297 seconds
+[2025-06-18T08:21:09.555+0530] {processor.py:161} INFO - Started process (PID=2036) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:09.556+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:21:09.559+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:09.558+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:09.593+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:09.628+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:09.628+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:21:09.681+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:09.680+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:21:09.787+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.241 seconds
+[2025-06-18T08:21:40.067+0530] {processor.py:161} INFO - Started process (PID=2038) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:40.069+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:21:40.071+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:40.070+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:40.103+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:21:40.140+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:40.140+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:21:40.172+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:21:40.172+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:21:40.262+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.202 seconds
+[2025-06-18T08:22:10.537+0530] {processor.py:161} INFO - Started process (PID=2041) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:10.538+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:22:10.540+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:10.540+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:10.572+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:10.606+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:10.606+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:22:10.639+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:10.639+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:22:10.722+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.193 seconds
+[2025-06-18T08:22:41.169+0530] {processor.py:161} INFO - Started process (PID=2043) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:41.171+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:22:41.173+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:41.172+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:41.205+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:22:41.239+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:41.238+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:22:41.272+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:22:41.271+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:22:41.358+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.195 seconds
+[2025-06-18T08:23:11.547+0530] {processor.py:161} INFO - Started process (PID=2045) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:11.549+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:23:11.551+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:11.551+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:11.603+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:11.645+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:11.644+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:23:11.684+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:11.683+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:23:11.778+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.239 seconds
+[2025-06-18T08:23:42.103+0530] {processor.py:161} INFO - Started process (PID=2047) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:42.105+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:23:42.107+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:42.107+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:42.140+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:23:42.177+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:42.177+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:23:42.209+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:23:42.209+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:23:42.298+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.202 seconds
+[2025-06-18T08:24:12.684+0530] {processor.py:161} INFO - Started process (PID=2049) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:12.686+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:24:12.688+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:12.687+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:12.720+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:12.754+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:12.754+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:24:12.788+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:12.787+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:24:12.894+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.217 seconds
+[2025-06-18T08:24:43.259+0530] {processor.py:161} INFO - Started process (PID=2052) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:43.261+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:24:43.263+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:43.263+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:43.304+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:24:43.374+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:43.373+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:24:43.414+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:24:43.414+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:24:43.529+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.277 seconds
+[2025-06-18T08:25:13.944+0530] {processor.py:161} INFO - Started process (PID=2054) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:13.946+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:25:13.950+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:13.949+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:14.025+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:14.071+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:14.071+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:25:14.175+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:14.172+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:25:14.398+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.463 seconds
+[2025-06-18T08:25:44.862+0530] {processor.py:161} INFO - Started process (PID=2056) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:44.864+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:25:44.868+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:44.868+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:44.934+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:25:45.038+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:45.037+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:25:45.107+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:25:45.106+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:25:45.305+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.455 seconds
+[2025-06-18T08:26:16.264+0530] {processor.py:161} INFO - Started process (PID=2058) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:16.303+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:26:16.305+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:16.305+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:16.373+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:16.487+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:16.487+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:26:16.557+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:16.556+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:26:16.766+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.525 seconds
+[2025-06-18T08:26:47.276+0530] {processor.py:161} INFO - Started process (PID=2060) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:47.279+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:26:47.283+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:47.282+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:47.342+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:26:47.450+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:47.449+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:26:47.552+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:26:47.552+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:26:47.779+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.512 seconds
+[2025-06-18T08:27:18.306+0530] {processor.py:161} INFO - Started process (PID=2062) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:18.315+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:27:18.320+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:18.319+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:18.368+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:18.490+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:18.488+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:27:18.544+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:18.544+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:27:18.797+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.503 seconds
+[2025-06-18T08:27:49.188+0530] {processor.py:161} INFO - Started process (PID=2064) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:49.190+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:27:49.195+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:49.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:49.289+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:27:49.356+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:49.355+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:27:49.455+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:27:49.454+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:27:49.646+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.466 seconds
+[2025-06-18T08:28:20.352+0530] {processor.py:161} INFO - Started process (PID=2066) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:20.354+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:28:20.357+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:20.356+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:20.397+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:20.505+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:20.505+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:28:20.576+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:20.576+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:28:20.774+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.434 seconds
+[2025-06-18T08:28:51.181+0530] {processor.py:161} INFO - Started process (PID=2068) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:51.183+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:28:51.186+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:51.185+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:51.235+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:28:51.333+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:51.332+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:28:51.385+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:28:51.385+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:28:51.625+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.454 seconds
+[2025-06-18T08:29:22.557+0530] {processor.py:161} INFO - Started process (PID=2070) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:22.559+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:29:22.563+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:22.563+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:22.604+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:22.733+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:22.732+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:29:22.849+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:22.848+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:29:23.065+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.519 seconds
+[2025-06-18T08:29:53.452+0530] {processor.py:161} INFO - Started process (PID=2072) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:53.454+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:29:53.458+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:53.457+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:53.566+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:29:53.707+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:53.706+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:29:53.802+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:29:53.801+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:29:54.001+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.564 seconds
+[2025-06-18T08:30:24.751+0530] {processor.py:161} INFO - Started process (PID=2074) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:24.753+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:30:24.756+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:24.755+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:24.877+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:24.988+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:24.988+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:30:25.062+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:25.061+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:30:25.275+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.543 seconds
+[2025-06-18T08:30:56.168+0530] {processor.py:161} INFO - Started process (PID=2076) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:56.172+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:30:56.178+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:56.177+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:56.236+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:30:56.343+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:56.341+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:30:56.402+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:30:56.402+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:30:56.595+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.447 seconds
+[2025-06-18T08:31:27.074+0530] {processor.py:161} INFO - Started process (PID=2078) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:27.076+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:31:27.078+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:27.077+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:27.135+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:27.180+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:27.180+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:31:27.213+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:27.213+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:31:27.300+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.232 seconds
+[2025-06-18T08:31:57.730+0530] {processor.py:161} INFO - Started process (PID=2080) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:57.732+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:31:57.737+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:57.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:57.841+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:31:57.913+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:57.912+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:31:57.952+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:31:57.951+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:31:58.139+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.418 seconds
+[2025-06-18T08:32:28.478+0530] {processor.py:161} INFO - Started process (PID=2082) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:28.480+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:32:28.482+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:28.482+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:28.583+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:28.654+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:28.654+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:32:28.752+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:28.751+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:32:28.945+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.476 seconds
+[2025-06-18T08:32:59.753+0530] {processor.py:161} INFO - Started process (PID=2084) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:59.758+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:32:59.763+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:59.762+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:59.798+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:32:59.838+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:59.838+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:32:59.973+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:32:59.972+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:33:00.146+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.403 seconds
+[2025-06-18T08:33:30.627+0530] {processor.py:161} INFO - Started process (PID=2086) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:33:30.629+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:33:30.634+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:33:30.633+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:33:30.702+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:33:30.799+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:33:30.799+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:33:30.854+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:33:30.853+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:33:31.053+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.435 seconds
+[2025-06-18T08:34:01.419+0530] {processor.py:161} INFO - Started process (PID=2088) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:01.424+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:34:01.427+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:01.427+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:01.471+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:01.615+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:01.614+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:34:01.715+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:01.714+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:34:01.915+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.513 seconds
+[2025-06-18T08:34:32.072+0530] {processor.py:161} INFO - Started process (PID=2091) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:32.074+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:34:32.078+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:32.077+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:32.145+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:34:32.208+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:32.207+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:34:32.276+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:34:32.275+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:34:32.433+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.374 seconds
+[2025-06-18T08:35:02.864+0530] {processor.py:161} INFO - Started process (PID=2093) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:02.865+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:35:02.867+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:02.867+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:02.899+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:02.934+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:02.934+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:35:02.967+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:02.967+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:35:03.052+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.194 seconds
+[2025-06-18T08:35:33.428+0530] {processor.py:161} INFO - Started process (PID=2095) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:33.430+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:35:33.432+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:33.432+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:33.471+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:35:33.507+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:33.507+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:35:33.538+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:35:33.538+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:35:33.630+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:36:04.080+0530] {processor.py:161} INFO - Started process (PID=2097) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:04.081+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:36:04.083+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:04.083+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:04.120+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:04.162+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:04.162+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:36:04.205+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:04.205+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:36:04.338+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.268 seconds
+[2025-06-18T08:36:34.416+0530] {processor.py:161} INFO - Started process (PID=2099) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:34.417+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:36:34.420+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:34.419+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:34.456+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:36:34.497+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:34.497+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:36:34.530+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:36:34.529+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:36:34.623+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.213 seconds
+[2025-06-18T08:37:05.081+0530] {processor.py:161} INFO - Started process (PID=2101) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:05.083+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:37:05.087+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:05.086+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:05.128+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:05.181+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:05.180+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:37:05.249+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:05.249+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:37:05.371+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.297 seconds
+[2025-06-18T08:37:35.817+0530] {processor.py:161} INFO - Started process (PID=2103) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:35.820+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:37:35.823+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:35.822+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:35.868+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:37:35.905+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:35.905+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:37:35.938+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:37:35.938+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:37:36.031+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.224 seconds
+[2025-06-18T08:38:06.230+0530] {processor.py:161} INFO - Started process (PID=2105) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:06.232+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:38:06.236+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:06.236+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:06.290+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:06.336+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:06.335+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:38:06.397+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:06.397+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:38:06.504+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.284 seconds
+[2025-06-18T08:38:37.057+0530] {processor.py:161} INFO - Started process (PID=2107) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:37.059+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:38:37.061+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:37.060+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:37.090+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:38:37.129+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:37.129+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:38:37.166+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:38:37.166+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:38:37.246+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.194 seconds
+[2025-06-18T08:39:07.620+0530] {processor.py:161} INFO - Started process (PID=2109) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:07.622+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:39:07.624+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:07.624+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:07.659+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:07.700+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:07.699+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:39:07.742+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:07.742+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:39:07.834+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.221 seconds
+[2025-06-18T08:39:38.215+0530] {processor.py:161} INFO - Started process (PID=2111) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:38.217+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:39:38.219+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:38.218+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:38.255+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:39:38.303+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:38.303+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:39:38.340+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:39:38.340+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:39:38.450+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.244 seconds
+[2025-06-18T08:40:08.802+0530] {processor.py:161} INFO - Started process (PID=2113) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:08.804+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:40:08.806+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:08.805+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:08.837+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:08.871+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:08.870+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:40:08.902+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:08.902+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:40:08.990+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.193 seconds
+[2025-06-18T08:40:39.263+0530] {processor.py:161} INFO - Started process (PID=2115) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:39.265+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:40:39.267+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:39.266+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:39.299+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:40:39.358+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:39.357+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:40:39.405+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:40:39.404+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:40:39.528+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.270 seconds
+[2025-06-18T08:41:09.865+0530] {processor.py:161} INFO - Started process (PID=2117) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:09.866+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:41:09.869+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:09.869+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:09.901+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:09.936+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:09.935+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:41:09.968+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:09.967+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:41:10.053+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.196 seconds
+[2025-06-18T08:41:40.438+0530] {processor.py:161} INFO - Started process (PID=2119) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:40.440+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:41:40.442+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:40.442+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:40.474+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:41:40.512+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:40.512+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:41:40.546+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:41:40.546+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:41:40.634+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T08:42:11.005+0530] {processor.py:161} INFO - Started process (PID=2121) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:11.006+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:42:11.008+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:11.008+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:11.041+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:11.079+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:11.079+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:42:11.113+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:11.113+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:42:11.203+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T08:42:41.510+0530] {processor.py:161} INFO - Started process (PID=2123) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:41.512+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:42:41.515+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:41.515+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:41.557+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:42:41.597+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:41.597+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:42:41.637+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:42:41.637+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:42:41.729+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.226 seconds
+[2025-06-18T08:43:12.047+0530] {processor.py:161} INFO - Started process (PID=2125) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:12.048+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:43:12.050+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:12.050+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:12.084+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:12.120+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:12.120+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:43:12.155+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:12.154+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:43:12.248+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:43:42.642+0530] {processor.py:161} INFO - Started process (PID=2127) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:42.643+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:43:42.646+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:42.645+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:42.679+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:43:42.714+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:42.714+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:43:42.748+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:43:42.748+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:43:42.840+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.206 seconds
+[2025-06-18T08:44:13.080+0530] {processor.py:161} INFO - Started process (PID=2129) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:13.082+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:44:13.086+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:13.085+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:13.133+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:13.183+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:13.182+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:44:13.232+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:13.231+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:44:13.354+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.283 seconds
+[2025-06-18T08:44:43.861+0530] {processor.py:161} INFO - Started process (PID=2132) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:43.862+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:44:43.866+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:43.865+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:43.905+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:44:43.954+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:43.954+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:44:43.993+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:44:43.993+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:44:44.095+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.243 seconds
+[2025-06-18T08:45:14.336+0530] {processor.py:161} INFO - Started process (PID=2134) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:14.338+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:45:14.341+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:14.340+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:14.395+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:14.436+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:14.436+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:45:14.472+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:14.472+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:45:14.580+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.251 seconds
+[2025-06-18T08:45:44.895+0530] {processor.py:161} INFO - Started process (PID=2136) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:44.897+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:45:44.900+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:44.899+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:44.943+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:45:44.992+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:44.991+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:45:45.036+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:45:45.036+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:45:45.147+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.260 seconds
+[2025-06-18T08:46:15.527+0530] {processor.py:161} INFO - Started process (PID=2138) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:15.529+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:46:15.532+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:15.532+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:15.575+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:15.617+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:15.617+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:46:15.659+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:15.659+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:46:15.768+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.249 seconds
+[2025-06-18T08:46:46.187+0530] {processor.py:161} INFO - Started process (PID=2140) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:46.189+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:46:46.191+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:46.190+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:46.225+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:46:46.275+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:46.275+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:46:46.307+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:46:46.307+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:46:46.393+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.224 seconds
+[2025-06-18T08:47:16.562+0530] {processor.py:161} INFO - Started process (PID=2142) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:16.564+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:47:16.567+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:16.566+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:16.608+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:16.660+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:16.660+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:47:16.704+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:16.704+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:47:16.807+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.256 seconds
+[2025-06-18T08:47:47.149+0530] {processor.py:161} INFO - Started process (PID=2144) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:47.151+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:47:47.155+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:47.155+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:47.197+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:47:47.250+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:47.249+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:47:47.291+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:47:47.291+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:47:47.436+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.295 seconds
+[2025-06-18T08:48:17.695+0530] {processor.py:161} INFO - Started process (PID=2146) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:17.696+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:48:17.700+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:17.699+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:17.743+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:17.790+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:17.790+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:48:17.835+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:17.834+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:48:17.944+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.257 seconds
+[2025-06-18T08:48:48.357+0530] {processor.py:161} INFO - Started process (PID=2148) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:48.359+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:48:48.374+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:48.369+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:48.500+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:48:48.565+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:48.565+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:48:48.602+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:48:48.602+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:48:48.696+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.346 seconds
+[2025-06-18T08:49:19.073+0530] {processor.py:161} INFO - Started process (PID=2150) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:19.075+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:49:19.078+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:19.078+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:19.144+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:19.195+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:19.195+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:49:19.238+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:19.238+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:49:19.355+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.292 seconds
+[2025-06-18T08:49:49.752+0530] {processor.py:161} INFO - Started process (PID=2152) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:49.754+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:49:49.757+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:49.757+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:49.790+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:49:49.827+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:49.827+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:49:49.859+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:49:49.858+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:49:49.949+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.223 seconds
+[2025-06-18T08:50:20.296+0530] {processor.py:161} INFO - Started process (PID=2155) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:20.298+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:50:20.300+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:20.299+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:20.334+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:20.370+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:20.370+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:50:20.407+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:20.407+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:50:20.511+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.223 seconds
+[2025-06-18T08:50:50.804+0530] {processor.py:161} INFO - Started process (PID=2157) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:50.805+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:50:50.808+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:50.808+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:50.838+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:50:50.872+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:50.871+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:50:50.903+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:50:50.903+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:50:50.985+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.188 seconds
+[2025-06-18T08:51:21.256+0530] {processor.py:161} INFO - Started process (PID=2159) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:21.258+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:51:21.260+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:21.259+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:21.293+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:21.346+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:21.345+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:51:21.402+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:21.401+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:51:21.522+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.273 seconds
+[2025-06-18T08:51:51.907+0530] {processor.py:161} INFO - Started process (PID=2161) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:51.909+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:51:51.911+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:51.910+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:51.942+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:51:51.978+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:51.978+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:51:52.008+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:51:52.008+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:51:52.097+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.197 seconds
+[2025-06-18T08:52:22.499+0530] {processor.py:161} INFO - Started process (PID=2163) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:22.501+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:52:22.504+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:22.503+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:22.535+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:22.570+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:22.570+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:52:22.601+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:22.600+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:52:22.688+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.195 seconds
+[2025-06-18T08:52:53.086+0530] {processor.py:161} INFO - Started process (PID=2165) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:53.087+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:52:53.090+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:53.089+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:53.125+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:52:53.163+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:53.163+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:52:53.197+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:52:53.196+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:52:53.287+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.210 seconds
+[2025-06-18T08:53:23.666+0530] {processor.py:161} INFO - Started process (PID=2167) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:23.668+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:53:23.670+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:23.670+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:23.701+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:23.741+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:23.741+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:53:23.776+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:23.776+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:53:23.865+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.208 seconds
+[2025-06-18T08:53:54.267+0530] {processor.py:161} INFO - Started process (PID=2169) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:54.268+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:53:54.271+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:54.270+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:54.308+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:53:54.347+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:54.347+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:53:54.382+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:53:54.382+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:53:54.476+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.216 seconds
+[2025-06-18T08:54:24.791+0530] {processor.py:161} INFO - Started process (PID=2172) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:24.793+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:54:24.796+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:24.795+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:24.834+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:24.881+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:24.881+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:54:24.920+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:24.920+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:54:25.027+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.244 seconds
+[2025-06-18T08:54:55.372+0530] {processor.py:161} INFO - Started process (PID=2174) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:55.373+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:54:55.375+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:55.375+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:55.403+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:54:55.439+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:55.438+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:54:55.476+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:54:55.475+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:54:55.556+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.190 seconds
+[2025-06-18T08:55:25.809+0530] {processor.py:161} INFO - Started process (PID=2176) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:25.811+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:55:25.812+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:25.812+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:25.840+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:25.871+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:25.870+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:55:25.900+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:25.899+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:55:25.973+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.171 seconds
+[2025-06-18T08:55:56.264+0530] {processor.py:161} INFO - Started process (PID=2178) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:56.265+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:55:56.268+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:56.267+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:56.300+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:55:56.336+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:56.335+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:55:56.370+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:55:56.370+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:55:56.463+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.206 seconds
+[2025-06-18T08:56:26.861+0530] {processor.py:161} INFO - Started process (PID=2180) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:26.863+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:56:26.865+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:26.865+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:26.900+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:26.942+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:26.941+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:56:26.976+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:26.976+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:56:27.067+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.214 seconds
+[2025-06-18T08:56:57.451+0530] {processor.py:161} INFO - Started process (PID=2182) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:57.453+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:56:57.455+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:57.455+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:57.488+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:56:57.524+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:57.523+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:56:57.557+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:56:57.557+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:56:57.661+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.217 seconds
+[2025-06-18T08:57:28.046+0530] {processor.py:161} INFO - Started process (PID=2184) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:28.048+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:57:28.051+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:28.050+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:28.084+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:28.117+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:28.117+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:57:28.148+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:28.147+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:57:28.237+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.198 seconds
+[2025-06-18T08:57:58.625+0530] {processor.py:161} INFO - Started process (PID=2186) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:58.628+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:57:58.631+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:58.630+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:58.665+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:57:58.706+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:58.705+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:57:58.742+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:57:58.742+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:57:58.835+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.217 seconds
+[2025-06-18T08:58:29.206+0530] {processor.py:161} INFO - Started process (PID=2188) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:29.208+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:58:29.211+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:29.210+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:29.243+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:29.283+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:29.282+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:58:29.316+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:29.315+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:58:29.404+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.204 seconds
+[2025-06-18T08:58:59.815+0530] {processor.py:161} INFO - Started process (PID=2190) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:59.817+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:58:59.820+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:59.820+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:59.868+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:58:59.910+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:59.910+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:58:59.945+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:58:59.945+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:59:00.070+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.265 seconds
+[2025-06-18T08:59:30.242+0530] {processor.py:161} INFO - Started process (PID=2192) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:59:30.244+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T08:59:30.246+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:59:30.246+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:59:30.278+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T08:59:30.315+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:59:30.314+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T08:59:30.358+0530] {logging_mixin.py:188} INFO - [2025-06-18T08:59:30.358+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T08:59:30.448+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.213 seconds
+[2025-06-18T09:00:00.890+0530] {processor.py:161} INFO - Started process (PID=2194) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:00.891+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:00:00.895+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:00.894+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:00.959+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:01.003+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:01.003+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:00:01.048+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:01.048+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:00:01.163+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.281 seconds
+[2025-06-18T09:00:31.499+0530] {processor.py:161} INFO - Started process (PID=2207) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:31.501+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:00:31.505+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:31.505+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:31.545+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:00:31.597+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:31.596+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:00:31.644+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:00:31.644+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:00:31.746+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.255 seconds
+[2025-06-18T09:01:02.187+0530] {processor.py:161} INFO - Started process (PID=2213) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:02.188+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:01:02.191+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:02.191+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:02.244+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:02.309+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:02.308+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:01:02.397+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:02.397+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:01:02.615+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.438 seconds
+[2025-06-18T09:01:33.235+0530] {processor.py:161} INFO - Started process (PID=2221) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:33.237+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:01:33.239+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:33.238+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:33.275+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:01:33.318+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:33.317+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:01:33.361+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:01:33.361+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:01:33.465+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.237 seconds
+[2025-06-18T09:02:03.849+0530] {processor.py:161} INFO - Started process (PID=2232) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:03.851+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:02:03.853+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:03.852+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:03.885+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:03.922+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:03.921+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:02:03.959+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:03.958+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:02:04.052+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.210 seconds
+[2025-06-18T09:02:34.462+0530] {processor.py:161} INFO - Started process (PID=2250) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:34.464+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:02:34.467+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:34.466+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:34.508+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:02:34.550+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:34.549+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:02:34.592+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:02:34.591+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:02:34.693+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.238 seconds
+[2025-06-18T09:03:05.024+0530] {processor.py:161} INFO - Started process (PID=2257) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:05.025+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:03:05.027+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:05.027+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:05.060+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:05.095+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:05.094+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:03:05.130+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:05.129+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:03:05.223+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.206 seconds
+[2025-06-18T09:03:35.591+0530] {processor.py:161} INFO - Started process (PID=2266) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:35.593+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:03:35.595+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:35.595+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:35.629+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:03:35.665+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:35.665+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:03:35.698+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:03:35.698+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:03:35.791+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.206 seconds
+[2025-06-18T09:04:05.932+0530] {processor.py:161} INFO - Started process (PID=2277) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:05.934+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:04:05.937+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:05.936+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:05.968+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:06.005+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:06.005+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:04:06.040+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:06.040+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:04:06.119+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.194 seconds
+[2025-06-18T09:04:36.530+0530] {processor.py:161} INFO - Started process (PID=2281) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:36.532+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:04:36.534+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:36.534+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:36.567+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:04:36.605+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:36.605+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:04:36.638+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:04:36.638+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:04:36.726+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.202 seconds
+[2025-06-18T09:05:07.222+0530] {processor.py:161} INFO - Started process (PID=2284) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:07.224+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:05:07.227+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:07.226+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:07.258+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:07.294+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:07.293+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:05:07.325+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:07.325+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:05:07.419+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T09:05:37.804+0530] {processor.py:161} INFO - Started process (PID=2287) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:37.806+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:05:37.808+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:37.807+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:37.844+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:05:37.892+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:37.891+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:05:37.934+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:05:37.934+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:05:38.040+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.242 seconds
+[2025-06-18T09:06:08.445+0530] {processor.py:161} INFO - Started process (PID=2290) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:08.446+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:06:08.448+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:08.448+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:08.483+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:08.519+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:08.519+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:06:08.550+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:08.550+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:06:08.639+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.200 seconds
+[2025-06-18T09:06:39.000+0530] {processor.py:161} INFO - Started process (PID=2293) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:39.002+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:06:39.006+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:39.005+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:39.037+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:06:39.074+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:39.074+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:06:39.105+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:06:39.104+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:06:39.190+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.199 seconds
+[2025-06-18T09:07:09.568+0530] {processor.py:161} INFO - Started process (PID=2306) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:09.569+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:07:09.571+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:09.571+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:09.604+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:09.641+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:09.640+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:07:09.678+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:09.677+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:07:09.767+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.205 seconds
+[2025-06-18T09:07:40.160+0530] {processor.py:161} INFO - Started process (PID=2315) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:40.162+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:07:40.165+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:40.164+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:40.199+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:07:40.238+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:40.237+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:07:40.271+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:07:40.271+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:07:40.364+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.213 seconds
+[2025-06-18T09:08:10.741+0530] {processor.py:161} INFO - Started process (PID=2322) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:10.742+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:08:10.744+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:10.744+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:10.776+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:10.815+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:10.815+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:08:10.848+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:10.847+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:08:10.941+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.209 seconds
+[2025-06-18T09:08:41.224+0530] {processor.py:161} INFO - Started process (PID=2329) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:41.225+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:08:41.227+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:41.227+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:41.269+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:08:41.311+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:41.310+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:08:41.343+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:08:41.343+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:08:41.446+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.229 seconds
+[2025-06-18T09:09:11.848+0530] {processor.py:161} INFO - Started process (PID=2332) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:11.849+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:09:11.853+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:11.852+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:11.914+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:11.967+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:11.967+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:09:12.017+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:12.017+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:09:12.160+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.328 seconds
+[2025-06-18T09:09:42.706+0530] {processor.py:161} INFO - Started process (PID=2335) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:42.707+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:09:42.709+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:42.708+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:42.749+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:09:42.788+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:42.788+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:09:42.821+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:09:42.821+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:09:42.913+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.215 seconds
+[2025-06-18T09:10:13.470+0530] {processor.py:161} INFO - Started process (PID=2338) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:13.477+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:10:13.481+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:13.480+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:13.639+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:13.761+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:13.760+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:10:13.881+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:13.880+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:10:14.143+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.710 seconds
+[2025-06-18T09:10:44.738+0530] {processor.py:161} INFO - Started process (PID=2341) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:44.740+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:10:44.741+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:44.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:44.774+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:10:44.812+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:44.811+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:10:44.855+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:10:44.855+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:10:44.947+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.216 seconds
+[2025-06-18T09:11:15.461+0530] {processor.py:161} INFO - Started process (PID=2350) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:15.463+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:11:15.464+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:15.464+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:15.504+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:15.541+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:15.541+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:11:15.576+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:15.576+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:11:15.666+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.231 seconds
+[2025-06-18T09:11:47.491+0530] {processor.py:161} INFO - Started process (PID=2354) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:47.493+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:11:47.495+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:47.494+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:47.534+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:11:47.582+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:47.581+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:11:47.626+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:11:47.626+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:11:47.726+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.245 seconds
+[2025-06-18T09:12:18.360+0530] {processor.py:161} INFO - Started process (PID=2379) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:18.361+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:12:18.364+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:18.363+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:18.400+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:18.439+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:18.439+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:12:18.473+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:18.473+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:12:18.572+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.218 seconds
+[2025-06-18T09:12:49.141+0530] {processor.py:161} INFO - Started process (PID=2388) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:49.143+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:12:49.145+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:49.145+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:49.190+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:12:49.248+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:49.248+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:12:49.287+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:12:49.287+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:12:49.385+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.252 seconds
+[2025-06-18T09:13:20.021+0530] {processor.py:161} INFO - Started process (PID=2395) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:20.022+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:13:20.024+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:20.023+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:20.055+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:20.090+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:20.090+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:13:20.122+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:20.122+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:13:20.217+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.203 seconds
+[2025-06-18T09:13:50.816+0530] {processor.py:161} INFO - Started process (PID=2403) to work on /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:50.818+0530] {processor.py:830} INFO - Processing file /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py for tasks to queue
+[2025-06-18T09:13:50.820+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:50.819+0530] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:50.869+0530] {processor.py:840} INFO - DAG(s) 'sch_hello_world' retrieved from /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py
+[2025-06-18T09:13:50.923+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:50.922+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-18T09:13:50.965+0530] {logging_mixin.py:188} INFO - [2025-06-18T09:13:50.965+0530] {dag.py:3954} INFO - Setting next_dagrun for sch_hello_world to 2025-06-18 00:00:00+00:00, run_after=2025-06-19 00:00:00+00:00
+[2025-06-18T09:13:51.077+0530] {processor.py:183} INFO - Processing /mnt/c/Users/HP/Documents/airflow/dags/scheduled_hello_world.py took 0.268 seconds

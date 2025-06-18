@@ -1,0 +1,21 @@
+[2025-06-18T09:12:14.219+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-18T09:12:14.262+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_tasks_upstream_downstream.task_C scheduled__2025-06-17T00:00:00+00:00 [queued]>
+[2025-06-18T09:12:14.282+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_tasks_upstream_downstream.task_C scheduled__2025-06-17T00:00:00+00:00 [queued]>
+[2025-06-18T09:12:14.283+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-06-18T09:12:14.335+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): task_C> on 2025-06-17 00:00:00+00:00
+[2025-06-18T09:12:14.343+0530] {standard_task_runner.py:63} INFO - Started process 2375 to run task
+[2025-06-18T09:12:14.347+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'execute_tasks_upstream_downstream', 'task_C', 'scheduled__2025-06-17T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/execute_multiple_tasks_upstream_downstream.py', '--cfg-path', '/tmp/tmp78c26bi5']
+[2025-06-18T09:12:14.349+0530] {standard_task_runner.py:91} INFO - Job 19: Subtask task_C
+[2025-06-18T09:12:14.472+0530] {task_command.py:426} INFO - Running <TaskInstance: execute_tasks_upstream_downstream.task_C scheduled__2025-06-17T00:00:00+00:00 [running]> on host LAPTOP-IPDFG60J.
+[2025-06-18T09:12:14.637+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pratima' AIRFLOW_CTX_DAG_ID='execute_tasks_upstream_downstream' AIRFLOW_CTX_TASK_ID='task_C' AIRFLOW_CTX_EXECUTION_DATE='2025-06-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-17T00:00:00+00:00'
+[2025-06-18T09:12:14.638+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-18T09:12:14.653+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-06-18T09:12:14.656+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo Executing Task C']
+[2025-06-18T09:12:14.668+0530] {subprocess.py:86} INFO - Output:
+[2025-06-18T09:12:14.670+0530] {subprocess.py:93} INFO - Executing Task C
+[2025-06-18T09:12:14.670+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-06-18T09:12:14.672+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-18T09:12:14.731+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=execute_tasks_upstream_downstream, task_id=task_C, execution_date=20250617T000000, start_date=20250618T034214, end_date=20250618T034214
+[2025-06-18T09:12:14.802+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-18T09:12:14.828+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-18T09:12:14.831+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
